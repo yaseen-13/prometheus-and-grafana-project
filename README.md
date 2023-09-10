@@ -1,1 +1,1 @@
-# prometheus-and-grafana-project
+# prometheus-monitoring
