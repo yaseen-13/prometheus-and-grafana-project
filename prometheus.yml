@@ -3,9 +3,10 @@ global:
   scrape_interval: 15s
   external_labels:
     monitor: prometheus
+    
 scrape_configs:
   - job_name: prometheus
     static_configs:
-      - targets: ['localhost:9090','172.31.0.253:9100,'172.31.13.162:9100']
+      - targets: ['172.31.5.6:9090','172.31.0.253:9100,'172.31.13.162:9100']
      
   
