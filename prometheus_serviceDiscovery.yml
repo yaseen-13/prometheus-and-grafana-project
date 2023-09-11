@@ -11,10 +11,5 @@ scrape_configs:
         secret_key: /xAzoc0qGWn8MuA7OiRl9jrCkvfUAF+TeL4C0pgB
         port: 9100
 
-  - job_name: 'Jjtech-Flix-Webapp2'
-    ec2_sd_configs:
-      - region: us-west-1
-        access_key: AKIA4DTWY2TBQXB6GUGH
-        secret_key: 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
-        port: 9100
+ 
 
